@@ -25,7 +25,7 @@ function Banner() {
 
   const BannerInfoContainer = styled.div`
     // width: 100%;
-    height: 700px;
+    height: 1000px;
     color: white;
     object-fit: contain;
     background-size: cover;
@@ -59,8 +59,8 @@ function Banner() {
 }
 
 const BannerInfo = styled.div`
-  padding-top: 350px;
-  margin-left: 50px;
+  padding-top: 598px;
+  margin-left: 90px;
 `;
 
 const BannerTitle = styled.h1`
@@ -95,7 +95,8 @@ const BannerOverview = styled.h1`
 `;
 
 const BannerImageFadeBottom = styled.div`
-  height: 10.2rem;
+  // height: 10.2rem;
+  height: 13.6rem;
   background-image: linear-gradient(
     180deg,
     transparent,
